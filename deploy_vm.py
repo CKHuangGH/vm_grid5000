@@ -15,7 +15,7 @@ en.set_config(ansible_forks=1)
 # Enable Ansible pipelining
 os.environ["ANSIBLE_PIPELINING"] = "True"
 
-job_name = Path(__file__).name
+job_name = "vmforexp"
 # change walltime for longer or shoter reserve time.
 # change cluster for different cluster in grid5000
 # change number for more VMs
